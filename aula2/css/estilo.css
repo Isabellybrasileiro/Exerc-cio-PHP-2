@@ -1,0 +1,52 @@
+/*Estilo de formatação das minhas páginas
+Data:16/08/2021*/
+
+.texto{
+	font-family: Arial; /* fonte que será usada nesse formatação */
+	color: #636E72;/* cor da fonte */
+	font-size: 12px;/* tamanho da fonte */
+}
+
+.titulo{
+    font-family: Helvetica;
+    color: #FAB1A0;
+    font-weight: bolder; /*super negrito*/
+    font-size: 20px;
+}
+
+/*utilizar tags como identificadores de formatação*/
+
+body{background-color: #ffeaa7;
+     font-size: 12px; 
+     font-family: Verdana;
+
+ }
+
+ h1, h2, h3{
+ 	font-family: Helvetica;
+ 	color: #00cec9;
+ 	font-weight: bolder;
+ } 
+
+nav ul{/* quando utilizar o ul dentro de um nav aplique essa formatação: */
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	display: inline;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #0984e3;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+}
+
+nav ul li a:visited{
+	color: #d63031;
+}
